@@ -23,7 +23,7 @@ public class Program {
         System.out.println(matcher(".sa.", "hsas"));
         
         // ##################### TASK 2 #####################
-        String json = "{\"key11111\":\"value\"}";
+        String json = "{\"key\":\"value\"}";
         IFiniteStateMachine machine = buildJsonStateMachine();
         for (int i = 0; i < json.length(); i++) {
             machine = machine.switchState(String.valueOf(json.charAt(i)));
