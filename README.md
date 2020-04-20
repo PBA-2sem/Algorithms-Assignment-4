@@ -9,6 +9,7 @@
 We have made a deterministic state machine that matches inputs towards JSON syntax.
 
 - example of JSON syntax: "{\"key\":\"value\"}"
+
 Try to change the **json** variable in **Program.java** and see if you can find limitations to our finite state machine. 
 
 ## How to run
